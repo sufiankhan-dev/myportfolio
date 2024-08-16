@@ -34,7 +34,7 @@ const Hero = () => {
             words="Transforming Concepts into Seamless User Experiences"
           />
 
-          <p className="text-center md:tracking-wider md-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi, I&apos;m Sufian, a Next.js Developer based in Pakistan.
           </p>
 
