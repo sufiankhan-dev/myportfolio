@@ -49,6 +49,7 @@ export const Combined3DCard = ({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       href={href || "/"}
+      target="_blank"
     >
       <div
         className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
