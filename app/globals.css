@@ -33,6 +33,10 @@
     --ring: 240 10% 3.9%;
 
     --radius: 0.5rem;
+
+    --project-card-bg: #f0f0f0; /* Light mode background */
+    --icon-bg: #4e4e4e; /* Light mode icon background */
+    --icon-border: #e0e0e0; /* Light mode icon border */
   }
 
   .dark {
@@ -63,6 +67,10 @@
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
+
+    --project-card-bg: #13162d; /* Dark mode background */
+    --icon-bg: #000000; /* Dark mode icon background */
+    --icon-border: #ffffff1a; /* Dark mode icon border */
   }
 }
 
