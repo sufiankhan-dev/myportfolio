@@ -47,10 +47,10 @@ Requirements:
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/sufian-portfolio.git
+git clone https://github.com/sufiankhan-dev/myportfolio.git
 
 # Navigate into the directory
-cd sufian-portfolio
+cd myportfolio
 
 # Install dependencies
 npm install
