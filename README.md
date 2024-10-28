@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Modern Portfolio - Developer Portfolio ⚡️  [![GitHub](https://img.shields.io/github/license/sufiankhan-dev/myportfolio?color=blue)](https://github.com/sufiankhan-dev/myportfolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/sufiankhan-dev/myportfolio)](https://github.com/sufiankhan-dev/myportfolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
-## Getting Started
+A sleek, responsive, and customizable portfolio for developers. Designed to showcase your skills, projects, and experience with an elegant, modern interface.
 
-First, run the development server:
+Check it out here: [Live Demo](https://sufian-portfolio.vercel.app/)
+
+<p align="center">
+  <kbd>
+    <img src="https://github.com/user-attachments/assets/165e3afd-db7a-4695-b62c-9a7ba4e65652"></img>
+<img src="https://github.com/user-attachments/assets/dc72df07-dd22-46f3-a1de-b064f1684d95"></img>
+  </kbd>
+</p>
+
+---
+
+### Table of Contents
+
+- [Sections](#sections)
+- [Getting Started](#getting-started)
+- [How to Use](#how-to-use)
+- [Linking GitHub Projects](#linking-your-sentry-for-error-handling)
+- [Customizing](#customizing)
+- [Deployment](#deployment)
+- [Technologies](#technologies)
+- [For the Future](#for-the-future)
+- [Contributors](#contributors)
+
+---
+
+### Sections
+
+✔️ **About Me**  
+✔️ **Skills**  
+✔️ **Projects**  
+✔️ **Experience**    
+✔️ **Contact**  
+
+---
+
+### Getting Started
+
+Follow these steps to run the portfolio on your local machine for development.
+
+Requirements:
+- **Node.js** v14 or higher
+- **Git** v2.17 or higher
 
 ```bash
+# Clone this repository
+git clone https://github.com/yourusername/sufian-portfolio.git
+
+# Navigate into the directory
+cd sufian-portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### How to Use
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Edit Content**: Customize `app/data/index.ts` with your personal details.
+2. **Add Projects**: Update projects in `app/data/index.ts` to showcase them.
+3. **Modify Theme**: Adjust theme colors in to match your brand.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Linking Your Sentry For Error Handling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Go to sentry, create a new project, create it's auth token and, create a `.env` file with your sentry token:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```plaintext
+SENTRY_AUTH_TOKEN=your_token_here
+```
 
-## Deploy on Vercel
+### Customizing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Personalize the content by editing key files:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+*   **/src/data/index.ts** for content and information.
+    
+*   **/public** for assets.
+    
+
+### Deployment
+
+Deploy on your preferred platform:
+
+*   [Netlify](https://www.netlify.com/): Link repo and deploy.
+    
+*   [Vercel](https://vercel.com/): Import project, set environment, and deploy.
+    
+
+## Technologies Used
+
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [ShadCN UI](https://shadcn.dev/)
+- [Accertinity UI](https://accertinity.com/) 
+- [Sentry](https://sentry.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+    
+
+## For the Future
+If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/sufiankhan-dev/myportfolio/pulls).
+
+- Connect with LinkedIn to get Summary, Skills, Education and Experience
+
+- Add a CMS (Sanity)
+
+- Add More Sections
+    
+
+### Contributors
+
+Thanks to all the contributors who make this project better!
