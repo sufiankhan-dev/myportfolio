@@ -6,23 +6,19 @@ import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 
 export function ModeToggle() {
-  const { theme, setTheme, systemTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
-    // Establece el tema del sistema como predeterminado al cargar
-    setTheme(localStorage.theme || systemTheme);
     setMounted(true);
-  }, [systemTheme, setTheme]);
+  }, []);
 
   const toggleTheme = () => {
-    const newTheme = theme === "dark" ? "light" : "dark";
-    setTheme(newTheme);
-    localStorage.theme = newTheme; // Guarda la preferencia en localStorage
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
   if (!mounted) {
-    return null;
+    return null; // or return a placeholder if desired
   }
 
   return (
